@@ -1,17 +1,13 @@
-4. Deliverables for GitHub
-schema.sql → CREATE TABLE + constraints.
-sample_data.sql → INSERT statements.
-queries.sql → advanced SQL examples (Joins, CTEs, Window Functions).
-procedures_triggers.sql → stored procedures + triggers.
-README.md → explanation of the project, ERD diagram, usage instructions.
-
-==
-
 # 🏥 Hospital Admissions & Patient Flow Database
 
 ## 📖 Project Overview
-This project is a **SQL Server database** designed to simulate hospital admissions and patient flow management.  
-It demonstrates **database design, advanced SQL queries, stored procedures, and triggers** in a healthcare context.  
+This project presents a SQL Server relational database built to model hospital admissions and patient flow management. It demonstrates the full cycle of database design and implementation, including:
+
+*Schema design and normalization to ensure data integrity
+*Advanced SQL queries (joins, subqueries, CTEs, window functions) for analysis and reporting
+*Stored procedures for automated operations such as patient admissions and discharge updates
+*Triggers to enforce business rules and maintain consistency in healthcare records
+*The project showcases how structured SQL solutions can improve operational efficiency, patient tracking, and data-driven decision-making in a healthcare context  
 
 The project models key entities:
 - Patients  
